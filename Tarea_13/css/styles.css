@@ -1,0 +1,44 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+    background-image: linear-gradient(to top,rgb(207, 16, 80),rgb(0, 0, 0));
+    /*background-color: black*/
+    background-repeat: no-repeat;
+    color: beige;
+}
+#encabezado{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0.2rem solid rgb(117, 18, 231);
+}
+#encabezado h1{
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0.5rem rgb(255, 255, 255);
+}
+.contenedor-tabla{
+    border: 0.2rem solid rgb(0, 4, 255);
+    width: 50%;
+    overflow-x: scroll;
+}
+.tabla-alumnos{
+    border:0.2 rem solid red ;
+    border-collapse: collapse;
+    width: 50rem;
+}
+.tabla-alumnos th, .tabla-alumnos td{
+    border: 0.2rem solid gray;
+    padding: 0.5rem;
+}
+.tabla-alumnos tr:nth-child(even){
+    background-color: rgb(0, 0, 0);
+    color: rgb(231, 0, 89);
+}
+.tabla-alumnos tr:hover{
+    background-color: rgb(255, 0, 170);
+    color: white;
+    font-size: 11px;
+}
